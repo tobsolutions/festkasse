@@ -1,6 +1,6 @@
 <?php
 /* Call this file 'hello-world.php' */
-require '/vendor/autoload.php';//__DIR__ . '/vendor/autoload.php';
+require 'vendor/autoload.php';//__DIR__ . '/vendor/autoload.php';
 use Mike42\Escpos\Printer;
 use Mike42\Escpos\PrintConnectors\NetworkPrintConnector;
 $connector = new NetworkPrintConnector("192.168.10.25", 9100);
